@@ -85,5 +85,51 @@ body {
   margin: 0;
   
 }
+/* cart styles */
+
+.cart {
+  max-width: 270px;
+  max-height: 484px;
+  text-align: center;
+}
+
+.cart img {
+  width: 100%;
+  height: 320px;
+}
+
+.cart-description {
+  margin: 10px auto;
+}
+
+.cart-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.cart-price {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.praimary-btn {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(233, 90, 8, 1);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.plant-cart {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px 20px;
+}
+
 
 
