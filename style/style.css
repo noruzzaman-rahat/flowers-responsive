@@ -4,6 +4,7 @@ body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  background-color: #f5f8ff;
 }
 
 
@@ -344,9 +345,108 @@ body {
   gap: 24px;
 }
 
+/* Moble divice responsive */
 
+@media screen and (max-width: 576px) {
+  /* navber section */
 
+  .hight {
+    display: none;
+  }
 
+  .navber {
+    margin-top: 60px;
+  }
 
+  /* responsive banner section */
 
+  .banner-section,
+  .latest-deal-cart-container,
+  .flower-plant-lover,
+  .latest-deal-cart-container,
+  .footer-section {
+    flex-direction: column;
+  }
 
+  .banner-section img {
+    order: -1;
+  }
+
+  .banner-title {
+    font-size: 1.5rem;
+  }
+
+  /* responsive cart section */
+
+  .plant-cart {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cart img {
+    height: 190px;
+  }
+
+  /* Flower & Plants Lover section */
+
+  .flower-plant-lover img {
+    margin-bottom: 20px;
+  }
+
+  /* Latest  Deals section */
+
+  .card3 {
+    max-width: 360px;
+    min-height: 200px;
+    margin: auto;
+  }
+  .card1,
+  .card2 {
+    margin: 20px auto;
+  }
+  .latest-deal-card-title-secont {
+    font-size: 1.2rem;
+  }
+  .latest-deals-section {
+    margin-top: 500px;
+    margin-bottom: 300px;
+  }
+
+  /* subscribe content section */
+
+  .subscribe-title {
+    font-size: 1.2rem;
+  }
+  .subscribe-img {
+    width: 390px;
+    height: 170px;
+    margin: 0;
+  }
+  .subscribe-form {
+    margin: 0;
+  }
+  #email {
+    width: 160px;
+    height: 50px;
+  }
+  .secount-btn {
+    width: 80px;
+    height: 50px;
+  }
+  subscribe-form-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe-conten {
+    margin: 0;
+    margin-top: 50px;
+    height: 0px;
+  }
+
+  /* footer section */
+  .footer-section{
+    margin: 50px auto;
+  }
+  .footer-title{
+    margin-top: 130px;
+  }
+}
