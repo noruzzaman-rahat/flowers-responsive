@@ -131,5 +131,36 @@ body {
   gap: 30px 20px;
 }
 
+/* Flower & Plants Lover styles */
+
+.flower-plant-lover {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  max-height: 590px;
+  margin: 50px auto;
+}
+
+.flower-plant-lover-content {
+  max-width: 540px;
+  align-items: center;
+  margin: auto 0;
+}
+
+.flower-plant-lover-img {
+  max-width: 540px;
+  max-height: 590px;
+}
+
+.flower-plant-lover img {
+  width: 100%;
+}
+
+.flower-plant-lover-list {
+  font-size: 1.37rem;
+  margin-top: 20px;
+}
+
+
 
 
