@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+/* relative style */
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.black-color-50 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.orenge-color {
+  color: #e95a08;
+}
+
+.relative-title {
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin: 0;
+  position: static;
+}
+/*nav bar style*/
+.navber {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 1140px;
+}
+
+.nav-item {
+  text-decoration: none;
+  margin-left: 3rem;
+}
+
+.item-color-1 {
+  color: #252432;
+}
+
+.item-color-2 {
+  color: #8987a1;
+}
+
+.item-color-3 {
+  color: black;
+}
+/* banner section styles */
+
+.banner-section {
+  display: flex;
+  max-width: 1140px;
+  margin: 120px auto;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.banner-discription {
+  font-size: 1.37rem;
+  font-weight: 400;
+}
+
