@@ -357,6 +357,9 @@ body {
   .navber {
     margin-top: 60px;
   }
+  .nav-item{
+    margin-right: 10px;
+  }
 
   /* responsive banner section */
 
@@ -374,6 +377,9 @@ body {
 
   .banner-title {
     font-size: 1.5rem;
+  }
+  .banner-discription{
+    margin-right: 5px;
   }
 
   /* responsive cart section */
